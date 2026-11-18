@@ -1,0 +1,1 @@
+const t="Mythbrix",s="Ahmed Ishtiaq Zarir",a="https://ahmedishtiaquezarir.pro.bd/",h="https://t.me/mythbrix_vault",o="https://t.me/cinetor",r="https://www.themoviedb.org/";export{t as D,a as T,s as a,h as b,o as c,r as d};

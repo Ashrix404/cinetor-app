@@ -1,0 +1,1 @@
+import{e as h,l,g as o,h as r}from"./CzUlQeLu.js";class a{#s=h(l([]));get list(){return o(this.#s)}set list(s){r(this.#s,s,!0)}n=0;show(s,t,e=6e3){const i=++this.n;return this.list=[...this.list,{id:i,text:s,action:t}],e>0&&setTimeout(()=>this.dismiss(i),e),i}dismiss(s){this.list=this.list.filter(t=>t.id!==s)}}const m=new a;export{m as t};

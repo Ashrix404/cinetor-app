@@ -1,0 +1,1 @@
+class i{stops=new Map;active=null;register(t,s){return this.stops.set(t,s),()=>{this.stops.get(t)===s&&this.stops.delete(t)}}claim(t){for(const[s,e]of this.stops)s!==t&&e();this.active=t}release(t){this.active===t&&(this.active=null)}}const r=new i;export{r as a};
